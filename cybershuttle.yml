@@ -1,0 +1,30 @@
+project:
+  name: "DistilGPT2 model"
+  description: "Lightweight DistilGPT-2 text generation model with Gradio UI interface for Cybershuttle deployment."
+  homepage: https://github.com/mnguyen402/DistilGPT2.git
+  authors:
+    - Minh Nguyen
+  tags:
+    - cybershuttle
+    - airavata-courses
+
+workspace:
+  location: /workspace
+  resources:
+    min_cpu: 4
+    min_gpu: 0
+    min_mem: 4096   
+    gpu_mem: 0    
+
+  model_collection: []
+  data_collection: []
+
+additional_dependencies:
+  conda:
+    - python=3.10
+    - pip
+  pip:
+    - torch
+    - transformers
+    - gradio
+    - psutil
