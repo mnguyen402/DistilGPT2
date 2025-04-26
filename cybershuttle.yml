@@ -3,7 +3,8 @@ project:
   description: "Lightweight DistilGPT-2 text generation model with Gradio UI interface for Cybershuttle deployment."
   homepage: https://github.com/mnguyen402/DistilGPT2.git
   authors:
-    - mnguyen402@gatech.edu
+    - name: Minh Nguyen
+      email: mnguyen402@gatech.edu
   tags:
     - cybershuttle
     - airavata-courses
