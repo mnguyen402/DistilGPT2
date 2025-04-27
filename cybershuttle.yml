@@ -17,7 +17,7 @@ workspace:
     gpu_mem: 0    
 
   model_collection: 
-  - source: cybershuttle
+    - source: cybershuttle
       identifier: cybershuttle-reference
       mount_point: /cybershuttle_data/cybershuttle-reference
   data_collection: []
