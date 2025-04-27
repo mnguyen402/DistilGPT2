@@ -16,7 +16,10 @@ workspace:
     min_mem: 4096   
     gpu_mem: 0    
 
-  model_collection: []
+  model_collection: 
+  - source: cybershuttle
+      identifier: cybershuttle-reference
+      mount_point: /cybershuttle_data/cybershuttle-reference
   data_collection: []
 
 additional_dependencies:
